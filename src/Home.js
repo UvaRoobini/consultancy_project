@@ -5,13 +5,12 @@ import Homepage from './components/Homepage';
 import Footer from './components/Footer';
 function Home() {
   return (
-    <React.Fragment>
+    <>
       <Navbar/>
       <CarouselComp/>
       <Homepage/>
       <Footer/>
-    </React.Fragment>
-    
+    </>
   );
 }
 
